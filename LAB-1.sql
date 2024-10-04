@@ -82,6 +82,8 @@ select * from participated;
 select accident_date, location
 from ACCIDENT;
 
+update participated set damage_amount=25000 where reg_num="KA053408"  and report_num =12;
+
 select driver_id
 from PARTICIPATED
 where damage_amount >=25000;
